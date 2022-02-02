@@ -1,0 +1,12 @@
+:root{
+    --text-gray:gray;
+    --text-black:black;
+    --alert-red:red;
+    --online-green:green;
+    --success-light-green:lightgreen;
+    --secondary:blue;
+    --main-bg-color:white;
+    --royal-color:royalblue;
+    --warning:#ffcc00;
+    --input-disabled:#a3a3a3;
+}

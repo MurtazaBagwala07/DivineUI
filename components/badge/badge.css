@@ -1,0 +1,81 @@
+.badge{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.badge-icon{
+    font-size: 2rem;
+    color:var(--text-gray);
+}
+
+.badge-number{
+    position: absolute;
+    top: -0.5rem;;
+    right: -0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    height:1rem;
+    width:1rem;
+    background-color: var(--alert-red);
+    font-size:0.75rem;
+    border: 0.1rem solid var(--main-bg-color);
+}
+
+.badge-online{
+    position: absolute;
+    bottom: -0.5rem;
+    right: -0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    height:1rem;
+    width:1rem;
+    background-color: var(--online-green);
+    font-size:0.75rem;
+    border: 0.1rem solid var(--main-bg-color);
+}
+
+.badge-idle{
+    position: absolute;
+    bottom: -0.5rem;
+    right: -0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    height:1rem;
+    width:1rem;
+    background-color: var(--text-gray);
+    font-size:0.75rem;
+    border: 0.1rem solid var(--main-bg-color);
+}
+
+.badge-dnd{
+    position: absolute;
+    bottom: -0.5rem;
+    right: -0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    height:1rem;
+    width:1rem;
+    background-color: var(--alert-red);
+    font-size:0.75rem;
+    border: 0.1rem solid var(--main-bg-color);
+}
+
+.badge-button{
+    background-color:var(--secondary);
+    color: var(--main-bg-color);
+    outline:none;
+    border: none;
+    width:5rem;
+    height:2rem;
+}
