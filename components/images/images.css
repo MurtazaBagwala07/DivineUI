@@ -1,0 +1,18 @@
+.image-container{
+    max-width: 100%;
+    display: inline-block;
+}
+
+.image-resp{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.image-round{
+    border-radius: 50%;
+}
+
+.image-round-corners{
+    border-radius: 5%;
+}
