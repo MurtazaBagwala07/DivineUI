@@ -1,0 +1,39 @@
+.avatar{
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.square{
+    border-radius: 0%;
+}
+
+.rounded-corners{
+    border-radius: 10%;
+}
+
+.avatar-xsmall{
+    height: 2rem;
+    width: 2rem;
+}
+
+.avatar-small{
+    height: 4rem;
+    width: 4rem;
+}
+
+.avatar-medium{
+    height: 6rem;
+    width: 6rem;
+}
+
+.avatar-large{
+    height: 8rem;
+    width: 8rem;
+}
+
+.avatar-xlarge{
+    height: 10rem;
+    width: 10rem;
+}
