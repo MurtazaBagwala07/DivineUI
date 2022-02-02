@@ -1,0 +1,212 @@
+.btn{
+    border-radius:0.2rem;
+    background-color:var(--royal-color);
+    color:var(--main-bg-color);
+    min-width:4rem;
+    padding:0.5rem;
+    border: none;
+    outline:none;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.btn-link:hover{
+    text-decoration:underline
+}
+
+.btn-primary{
+    background-color:var(--royal-color);
+    color:var(--main-bg-color);
+}
+
+.btn-alert{
+    background-color:var(--alert-red);
+}
+
+.btn-warning{
+    background-color:var(--warning)
+}
+
+.btn-success{
+    background-color:var(--success-light-green)
+}
+
+.btn-secondary{
+    background-color: var(--text-gray);
+}
+
+.btn-light{
+    background-color: var(--main-bg-color);
+    color: var(--text-black);
+}
+
+.btn-dark{
+    background-color: var(--text-black);
+    color: var(--main-bg-color);
+}
+
+.btn-outline-primary{
+    background-color:var(--main-bg-color);
+    color:var(--royal-color);
+    border: 0.1rem solid var(--royal-color);
+}
+
+.btn-outline-primary:hover{
+    background-color:var(--royal-color);
+    color:var(--main-bg-color);
+    border: 0.1rem solid var(--royal-color);
+}
+
+.btn-outline-alert{
+    background-color:var(--main-bg-color);
+    color:var(--alert-red);
+    border: 0.1rem solid var(--alert-red);
+}
+
+.btn-outline-alert:hover{
+    background-color:var(--alert-red);
+    color:var(--main-bg-color);
+    border: 0.1rem solid var(--alert-red);
+}
+
+.btn-outline-warning{
+    background-color:var(--main-bg-color);
+    color:var(--warning);
+    border: 0.1rem solid var(--warning);
+}
+
+.btn-outline-warning:hover{
+    background-color:var(--warning);
+    color:var(--main-bg-color);
+    border: 0.1rem solid var(--warning);
+}
+
+.btn-outline-success{
+    background-color:var(--main-bg-color);
+    color:var(--success-light-green);
+    border: 0.1rem solid var(--success-light-green);
+}
+
+.btn-outline-success:hover{
+    background-color:var(--success-light-green);
+    color:var(--main-bg-color);
+    border: 0.1rem solid var(--success-light-green);
+}
+
+.btn-outline-secondary{
+    background-color:var(--main-bg-color);
+    color:var(--text-gray);
+    border: 0.1rem solid var(--text-gray);
+}
+
+.btn-outline-secondary:hover{
+    background-color:var(--text-gray);
+    color:var(--main-bg-color);
+    border: 0.1rem solid var(--text-gray);
+}
+
+.btn-outline-light{
+    background-color:var(--main-bg-color);
+    color:var(--text-black);
+    border: 0.1rem solid var(--text-black);
+}
+
+.btn-outline-light:hover{
+    background-color:var(--main-bg-color);
+    color:var(--text-black);
+    border: 0.1rem solid var(--main-bg-color);
+}
+
+.btn-outline-dark{
+    background-color:var(--main-bg-color);
+    color:var(--text-black);
+    border: 0.1rem solid var(--text-black);
+}
+
+.btn-outline-dark:hover{
+    background-color:var(--text-black);
+    color:var(--main-bg-color);
+    border: 0.1rem solid var(--text-black);
+}
+
+.btn-pill{
+    border-radius: 1rem;
+}
+
+.btn-disabled{
+    opacity: 0.35;
+}
+
+.btn-text{
+    margin: 0 0.3rem;
+}
+
+.btn-icon{
+    margin: 0 0.3rem;
+}
+
+.fab-container{
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.fab-icon-holder{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    background-color:var(--royal-color)
+}
+
+.fab-icon-holder:hover{
+    opacity: 0.8;
+}
+
+.fab-icon-holder i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    color:var(--main-bg-color);
+}
+
+.fab{
+    width:3rem;
+    height:3rem;
+    background: var(--alert-red);
+}
+
+.fab-options{
+    list-style-type:none;
+    margin: 0;
+    position:absolute;
+    bottom: 4.5rem;
+    right: 0;
+    opacity: 0;
+}
+
+.fab:hover + .fab-options, .fab-options:hover{
+    opacity: 1;
+}
+
+.fab-options li{
+    display: flex;
+    justify-content: flex-end;
+    padding:0.25rem;
+}
+
+.fab-label{
+    padding: 2px 5px;
+    align-self: center;
+    user-select: none;
+    white-space: nowrap;
+    border-radius: 0.25rem;
+    font-size:1rem;
+    background-color:var(--text-gray);
+    color: var(--main-bg-color);
+    margin-right: 0.5rem;
+}
