@@ -1,0 +1,40 @@
+.ul-square-list{
+    list-style-type: square;
+}
+
+.ul-circle-list{
+    list-style-type: circle;
+}
+
+.ul-disc-list{
+    list-style-type: disc;
+}
+
+.ol-lower-alpha-list{
+    list-style-type: lower-alpha;
+}
+
+.ol-upper-alpha-list{
+    list-style-type: upper-alpha;
+}
+
+.ol-lower-roman-list{
+    list-style-type: lower-roman;
+}
+
+.ol-upper-roman-list{
+    list-style-type: upper-roman;
+}
+
+.stacked-list{
+    list-style-type:none;
+}
+
+.stacked-list-item{
+    border: 0.2rem solid var(--text-black);
+    margin:0.15rem;
+    max-width: 20rem;
+}
+
+
+
