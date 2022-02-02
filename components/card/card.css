@@ -1,0 +1,87 @@
+
+.card{
+    width:18rem;
+    min-height:10rem;
+    margin:0.5rem;
+    padding:0.5rem;
+    background-color:var(--main-bg-color);
+    border-radius:0.5rem;
+    
+}
+
+.card-badge{
+    position: relative;
+}
+
+.card-with-icon{
+    position: relative;
+}
+
+.card-overlay{
+    position: relative;
+}
+
+.card-horizontal{
+    display:flex;
+    flex-direction:row;
+    width:25rem;
+}
+
+.card-boxshadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-img{
+    max-width:100%;
+}
+
+.card-img-horizontal{
+    max-width:50%;
+}
+
+.card-title{
+    font-size:1.2rem;
+    font-weight:bold;
+    color: var(--text-black);
+    margin: 0.25rem;
+    padding:0.25rem;
+}
+
+.card-description{
+    font-size:1rem;
+    color: var(--text-gray);
+    margin: 0.25rem;
+    padding:0.25rem;
+}
+
+.card-badge-text{
+    position:absolute;
+    left:0;
+    top:2rem;
+    background-color: var(--success-light-green);
+    color: var(--text-black);
+    padding:0.2rem;
+    border-radius: 0.3rem;
+}
+
+.card-icon-button{
+    position:absolute;
+    width: 2rem;
+    height: 2rem;
+    outline:none;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--text-gray);
+    color: var(--text-black);
+    top: 0;
+    right: 0;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.card-text-overlay{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
