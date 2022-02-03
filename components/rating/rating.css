@@ -1,0 +1,13 @@
+.rating-container{
+    display:flex;
+    list-style: none;
+    flex-direction: row;
+}
+
+.rating-checked{
+    color: var(--warning)
+}
+
+.rating-checked-hover:hover{
+    color: var(--warning)
+}
