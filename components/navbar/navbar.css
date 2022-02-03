@@ -1,7 +1,6 @@
 .navbar-container{
     width: 100%;
     display:flex;
-    flex-direction: row;
     align-items: center;
     background-color:var(--black-bg);
     color: var(--main-bg-color);
@@ -19,7 +18,6 @@
     list-style: none;
     margin-left: auto;
     display:flex;
-    flex-direction: row;
     padding: 0 1rem;
     font-size: 1.2rem;
 }
