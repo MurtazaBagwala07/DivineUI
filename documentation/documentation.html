@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="documentation.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
+        integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ=="
+        crossorigin="anonymous" />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <title>Divine UI</title>
+</head>
+<body>
+    <header>
+        <nav class="documentation-nav-container">
+            <div class="nav-title">
+                DIVINE UI
+            </div>
+            <div class="nav-action-btns">
+                <a class="a-link" href="home.html"><button class="nav-action-btn">
+                    Home
+                </button></a>
+                <a class="a-link"href="documentation.html"><button class="nav-action-btn">
+                    Documentation
+                </button></a>
+            </div>
+            <ul class="nav-social-container">
+                <a class="a-link" href="https://github.com/MurtazaBagwala07" target="_blank"><li class="nav-social-link"><i class="fab fa-github"></i></li></a>
+                <a class="a-link" href="https://www.linkedin.com/in/murtaza-bagwala-2850341bb" target="_blank"><li class="nav-social-link"><i class="fab fa-linkedin"></i></li></a>
+                <a class="a-link" href="https://twitter.com/MurtazaBagwala5" target="_blank"><li class="nav-social-link"><i class="fab fa-twitter"></i></li></a>
+            </ul>
+            <div class="nav-theme-change">
+                <i class="fas fa-moon"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="documentation-main-wrapper">
+        <aside class="sidebar-wrapper">
+            <div class="sidebar-header">
+                Components
+            </div>
+            <ul class="sidebar-components">
+                <a class="a-link" href="#alert"><li class="sidebar-component">Alerts</li></a>
+                <a class="a-link" href="#avatar"><li class="sidebar-component">Avatar</li></a>
+                <a class="a-link" href="#badge"><li class="sidebar-component">Badge</li></a>
+                <a class="a-link" href="#button"><li class="sidebar-component">Button</li></a>
+                <a class="a-link" href="#card"><li class="sidebar-component">Cards</li></a>
+                <a class="a-link" href="#image"><li class="sidebar-component">Image</li></a>
+                <a class="a-link" href="#input"><li class="sidebar-component">Input</li></a>
+                <a class="a-link" href="#lists"><li class="sidebar-component">Lists</li></a>
+                <a class="a-link" href="#modal"><li class="sidebar-component">Modal</li></a>
+                <a class="a-link" href="#navigation"><li class="sidebar-component">Navigation</li></a>
+                <a class="a-link" href="#rating"><li class="sidebar-component">Rating</li></a>
+                <a class="a-link" href="#toast"><li class="sidebar-component">Toast</li></a>
+                <a class="a-link" href="#typography"><li class="sidebar-component">Typography</li></a>
+            </ul>
+        </aside>
+        <div class="main-content">
+            <div class="component" id="alert">
+                <div class="component-heading">
+                    <p class="component-heading-title">Alert</p>
+                    <p class="component-heading-desc">Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
+                </div>
+                <p class="component-example-heading">Example of a Basic Alert</p>
+                <p class="component-example-description">Alert can be can be customized in 7 different variants. You can use classes like 'alert-success','alert-danger','alert-warning' to modify the alert component. An example of which is shown below:</p>
+                <div class="component-example-demo">
+                    <div class="alert alert-primary">
+                        <p>This is example of a primary alert</p>
+                    </div>
+                
+                    <div class="alert alert-secondary">
+                        <p>This is example of a secondary alert</p>
+                    </div>
+                
+                    <div class="alert alert-success">
+                        <p>This is example of a success alert</p>
+                    </div>
+                
+                    <div class="alert alert-danger">
+                        <p>This is example of a danger alert</p>
+                    </div>
+                
+                    <div class="alert alert-warning">
+                        <p>This is example of a warning alert</p>
+                    </div>
+                
+                    <div class="alert alert-light">
+                        <p>This is example of a light alert</p>
+                    </div>
+                
+                    <div class="alert alert-dark">
+                        <p>This is example of a dark alert</p>
+                    </div>
+                </div>
+
+                <p class="component-example-heading">Example of an alert with link</p> 
+                <p class="component-example-description">User can wrap the work/sentence using anchor tag with class 'alert-link' to produce effect of link inside alert on the wrapped area.</p>
+                <div class="component-example-demo">
+                    <div class="alert alert-primary">
+                        <p>This is primary alert with <a href="#" class="alert-link">an example link</a></p>
+                    </div>
+                </div>
+                
+                <p class="component-example-heading">Example of alert with icons</p>
+                <p class="component-example-description">User can replace icon by replacing the i tag and by provide the given classes to use alert with icons.</p>
+                <div class="component-example-demo">
+                    <div class="alert alert-success alert-icon-container">
+                        <i class="far fa-check-circle alert-icon"></i>
+                        <p>This is example of a success alert with icon</p>
+                    </div>
+                
+                    <div class="alert alert-danger alert-icon-container">
+                        <i class="fas fa-times alert-icon"></i>
+                        <p>This is example of a danger alert with icon</p>
+                    </div>
+                
+                    <div class="alert alert-warning alert-icon alert-icon-container">
+                        <i class="fas fa-exclamation-triangle alert-icon"></i>
+                        <p>This is example of a warning alert with icon</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="break-line">
+
+
+            <div class="component" id="avatar">
+                <div class="component-heading">
+                    <p class="component-heading-title">Avatar</p>
+                    <p class="component-heading-desc">Avatar can be used to show user's profile picture on profile information page, on navigation bar, in any web application.</p>
+                </div>
+                <p class="component-example-heading">Example of circular avatars</p>
+                <p class="component-example-description">Avatar is available in 5 different sizes.Classes like 'avatar-xsmall', 'avatar-small', 'avatar-medium', 'avatar-large', 'avatar-xlarge' can be applied to change the size of avatar.</p>
+                <p class="component-example-description">Images on avatar can be changes by replacing the source of image in the code.</p>
+                <div class="component-example-demo">
+                    <img class="avatar avatar-xsmall" src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar-profile">
+                    <img class="avatar avatar-small" src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar-profile">
+                    <img class="avatar avatar-medium" src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar-profile">
+                    <img class="avatar avatar-large" src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar-profile">
+                    <img class="avatar avatar-xlarge" src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar-profile">
+                </div>
+
+                <p class="component-example-heading">Example of rounded corner avatars</p>
+                <p class="component-example-description">Avatar's shape can be changed to rounded corners by applying the 'rounded-corners' class on it.</p>
+                <div class="component-example-demo">
+                    <img class="avatar avatar-xsmall rounded-corners" src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar-profile">
+                    <img class="avatar avatar-small rounded-corners" src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar-profile">
+                    <img class="avatar avatar-medium rounded-corners" src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar-profile">
+                    <img class="avatar avatar-large rounded-corners" src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar-profile">
+                    <img class="avatar avatar-xlarge rounded-corners" src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar-profile">
+                </div>
+
+                <p class="component-example-heading">Example of square avatars</p>
+                <p class="component-example-description">Avatar's shape can be changed to square by applying the 'square' class on it.</p>
+                <div class="component-example-demo">
+                    <img class="avatar avatar-xsmall square" src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar-profile">
+                    <img class="avatar avatar-small square" src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar-profile">
+                    <img class="avatar avatar-medium square" src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar-profile">
+                    <img class="avatar avatar-large square" src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar-profile">
+                    <img class="avatar avatar-xlarge square" src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar-profile">
+                </div>
+            </div>
+            <hr class="break-line">
+
+
+            <div class="component" id="badge">
+                <div class="component-heading">
+                    <p class="component-heading-title">Badge</p>
+                    <p class="component-heading-desc">Badges can be used to provide notifications count on an icon or provide status on an avatar.</p>
+                </div>
+                <p class="component-example-heading">Example of badge on icon as notification</p>
+                <p class="component-example-description">Badges can be used by providing class 'badge' to parent component.Also class 'badge-icon' should be given to the desired icon.</p>
+                <div class="component-example-demo">
+                    <div class="badge">
+                        <i class="fas fa-bell badge-icon"></i>
+                        <span class="badge-number">6</span>
+                    </div>
+                
+                    <div class="badge">
+                        <i class="fas fa-shopping-cart badge-icon"></i>
+                        <span class="badge-number">6</span>
+                    </div>
+                
+                    <div class="badge">
+                        <i class="fas fa-envelope badge-icon"></i>
+                        <span class="badge-number">6</span>
+                    </div>
+                </div>
+                <p class="component-example-heading">Example of badge to show status of some avatar.</p>
+                <p class="component-example-description"> Here we can use the avatar component on which we can use badge. Classes like 'badge-online', 'badge-idle', 'badge-dnd' can be used to provide different status.</p>
+                <div class="component-example-demo">
+                    <div class="badge">
+                        <img class="avatar avatar-small" src="https://www.w3schools.com/howto/img_avatar.png" alt="">
+                        <span class="badge-online"></span>
+                    </div>
+                
+                    <div class="badge">
+                        <img class="avatar avatar-small" src="https://www.w3schools.com/howto/img_avatar.png" alt="">
+                        <span class="badge-idle"></span>
+                    </div>
+                
+                    <div class="badge">
+                        <img class="avatar avatar-small" src="https://www.w3schools.com/howto/img_avatar.png" alt="">
+                        <span class="badge-dnd"></span>
+                    </div>
+                </div>
+                <p class="component-example-heading">Example of badge on a button</p>
+                <p class="component-example-description">Class 'badge-button' can be provided to get the desired component.As it is shown in code snippet below.</p>
+                <div class="component-example-demo">
+                    <div class="badge">
+                        <button class="badge-button">Filter</button>
+                        <span class="badge-number">5</span>
+                    </div>
+                </div>
+            </div>
+            <hr class="break-line">
+
+
+            <div class="component" id="button">
+                <div class="component-heading">
+                    <p class="component-heading-title">Buttons</p>
+                    <p class="component-heading-desc">Buttons can be used as call to action (CTA) on any website.</p>
+                </div>
+                <p class="component-example-heading">Example of basic buttons</p>
+                <p class="component-example-description">Basic buttons are available in different variants and they can used by providing the classes shown in the code snippet below.</p>
+                <div class="component-example-demo">
+                    <button class="btn">Primary</button>
+                    <button class="btn btn-primary">Primary</button>
+                    <button class="btn btn-alert">Alert</button>
+                    <button class="btn btn-warning">Warning</button>
+                    <button class="btn btn-success">Success</button>
+                    <button class="btn btn-secondary">Secondary</button>
+                    <button class="btn btn-light">Light</button>
+                    <button class="btn btn-dark">Dark</button>
+                    <button class="btn btn-link">Link</button>
+                </div>
+                <p class="component-example-heading">Example of buttons with outline/border</p>
+                <p class="component-example-description">This style can be applied to buttons by adding class for example 'btn-outline-success'. It also has different variants for styling , shown in code snippet below.</p>
+                <div class="component-example-demo">
+                    <button class="btn btn-outline-primary">Primary</button>
+                    <button class="btn btn-outline-alert">Alert</button>
+                    <button class="btn btn-outline-warning">Warning</button>
+                    <button class="btn btn-outline-success">Success</button>
+                    <button class="btn btn-outline-secondary">Secondary</button>
+                    <button class="btn btn-outline-light">Light</button>
+                    <button class="btn btn-outline-dark">Dark</button>
+                </div>
+                <p class="component-example-heading">Example of buttons in pill shape.</p>
+                <p class="component-example-description">This style can be applied to buttons by adding class for example 'btn-pill'. Example is shown in code snippet below.</p>
+                <div class="component-example-demo">
+                    <button class="btn btn-outline-primary btn-pill">Primary</button>
+                    <button class="btn btn-outline-alert btn-pill">Alert</button>
+                    <button class="btn btn-outline-warning btn-pill">Warning</button>
+                    <button class="btn btn-outline-success btn-pill">Success</button>
+                    <button class="btn btn-outline-secondary btn-pill">Secondary</button>
+                    <button class="btn btn-outline-light btn-pill">Light</button>
+                    <button class="btn btn-outline-dark btn-pill">Dark</button>
+                </div>
+                <p class="component-example-heading">Example of disabled buttons</p>
+                <p class="component-example-description">This style can be applied to buttons by adding class for example 'btn-disabled'. Example is shown in code snippet below.</p>
+                <div class="component-example-demo">
+                    <button class="btn btn-primary btn-disabled">Primary</button>
+                    <button class="btn btn-alert btn-disabled">Alert</button>
+                    <button class="btn btn-warning btn-disabled">Warning</button>
+                </div>
+                <p class="component-example-heading">Example of button with icons.</p>
+                <p class="component-example-description">This style can be applied to buttons by adding class to icon for example 'btn-icon'. Example is shown in code snippet below.</p>
+                <div class="component-example-demo">
+                    <button class="btn btn-alert">
+                        <i class="fas fa-exclamation-triangle btn-icon"></i>
+                        <span class="btn-text">Alert</span>
+                    </button>
+                    <button class="btn btn-warning">
+                        <span class="btn-text">Warning</span>
+                        <i class="fas fa-exclamation-circle btn-icon"></i>
+                    </button>
+                </div>
+            </div>
+            <hr class="break-line">
+
+
+            <div class="component" id="card">
+                <div class="component-heading">
+                    <p class="component-heading-title">Cards</p>
+                    <p class="component-heading-desc">Card are used to show user related data collectively, like product details.</p>
+                </div>
+                <p class="component-example-heading">Example of basic card with text.</p>
+                <p class="component-example-description">A basic card consist of text only.</p>
+                <div class="component-example-demo card-example">
+                    <div class="card">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, vel placeat. Magni odit obcaecati debitis reiciendis cumque eos nobis dolorum!</p>
+                    </div>
+                </div>
+
+                <p class="component-example-heading">Example of basic card with boxshadow.</p>
+                <p class="component-example-description">Example of basic card with box with boxshadow</p>
+                <div class="component-example-demo card-example">
+                    <div class="card card-boxshadow">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, illum quasi? Maiores debitis reprehenderit enim eligendi rem voluptate accusantium praesentium.</p>
+                    </div>
+                </div>
+
+                <p class="component-example-heading">Example of vertical card with image, title and description.</p>
+                <p class="component-example-description">vertical card with image, title and description , it can be applied using class 'card'.</p>
+                <div class="component-example-demo card-example">
+                    <div class="card">
+                        <img class="card-img" src="https://icdn.football-espana.net/wp-content/uploads/2021/02/Toni-Kroos.jpg" alt="card-image">
+                        <div class="card-text">
+                            <div class="card-title">
+                                Toni Kroos
+                            </div>
+                            <div class="card-description">
+                                One of the best midfielders of all time. They call him Maestro for a reason.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="component-example-heading">Example of horizontal card with image, title and description.</p>
+                <p class="component-example-description">The component of card are arranged in horizontal order, it is a landscape card.</p>
+                <div class="component-example-demo card-example">
+                    <div class="card card-horizontal">
+                        <img class="card-img-horizontal" src="https://icdn.football-espana.net/wp-content/uploads/2021/02/Toni-Kroos.jpg" alt="card-image">
+                        <div class="card-text">
+                            <div class="card-title">
+                                Toni Kroos
+                            </div>
+                            <div class="card-description">
+                                One of the best midfielders of all time. They call him Maestro for a reason.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="component-example-heading">Example of card with badge on it.</p>
+                <p class="component-example-description">A card with badge can be used to highlight the card with badges like new , discounted etc.</p>
+                <div class="component-example-demo card-example">
+                    <div class="card card-badge">
+                        <span class="card-badge-text">Real Madrid</span>
+                        <img class="card-img" src="https://icdn.football-espana.net/wp-content/uploads/2021/02/Toni-Kroos.jpg" alt="card-image">
+                        <div class="card-text">
+                            <div class="card-title">
+                                Toni Kroos
+                            </div>
+                            <div class="card-description">
+                                One of the best midfielders of all time. They call him Maestro for a reason.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="component-example-heading">Example of card with icon (dismissible).</p>
+                <p class="component-example-description">This card includes icon which can be used to dismiss card or for any other purpose.</p>
+                <div class="component-example-demo card-example">
+                    <div class="card card-with-icon">
+                        <button class="card-icon-button"><i class="fas fa-times card-icon"></i></button>
+                        <img class="card-img" src="https://icdn.football-espana.net/wp-content/uploads/2021/02/Toni-Kroos.jpg" alt="card-image">
+                        <div class="card-text">
+                            <div class="card-title">
+                                Toni Kroos
+                            </div>
+                            <div class="card-description">
+                                One of the best midfielders of all time. They call him Maestro for a reason.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="component-example-heading">Example of card with text overlay.</p>
+                <p class="component-example-description">Text is overlayed on the image in this card.</p>
+                <div class="component-example-demo card-example">
+                    <div class="card">
+                        <div class="card-overlay">
+                        <img class="card-img" src="https://icdn.football-espana.net/wp-content/uploads/2021/02/Toni-Kroos.jpg" alt="card-image">
+                            <div class="card-title card-text-overlay">
+                                Toni Kroos
+                            </div>
+                        </div>
+                            <div class="card-description">
+                                One of the best midfielders of all time. They call him Maestro for a reason.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="break-line">
+
+
+            <div class="component" id="image">
+                <div class="component-heading">
+                    <p class="component-heading-title">Images</p>
+                    <p class="component-heading-desc">Images can be responsive to fit the parent's width, and also can be customised to be round shaped.</p>
+                </div>
+                <p class="component-example-heading">Example of Circular Image</p>
+                <p class="component-example-description">Image can be made responsive by using class 'imge-resp'.By using class 'image-round' shape of image becomes circular/oval depending on height of image.</p>
+                <div class="component-example-demo">
+                    <div class="image-container">
+                        <img src="https://mcdn.wallpapersafari.com/medium/8/73/swl1Sp.jpg" alt="image" class="image-resp image-round">
+                    </div>
+                </div>
+                <p class="component-example-heading">Example of Image with rounded corners.</p>
+                <p class="component-example-description">Image can be made responsive by using class 'imge-resp'.By using class 'image-round-corners' corners of image become soft/rounded.</p>
+                <div class="component-example-demo">
+                    <div class="image-container">
+                        <img src="https://mcdn.wallpapersafari.com/medium/8/73/swl1Sp.jpg" alt="image" class="image-resp image-round-corners">
+                    </div>
+                </div>
+            </div>
+            <hr class="break-line">
+
+
+            <div class="component" id="input">
+                <div class="component-heading">
+                    <p class="component-heading-title">Input</p>
+                    <p class="component-heading-desc">Input component can be used whenever user wants to add form/input anwhere.</p>
+                </div>
+                <p class="component-example-heading">Example of basic and disabled input.</p>
+                <p class="component-example-description">Input is provided with 2 generic types basic and disabled. It can be applied by using class 'input-field' for basic and 'input-disabled' for disabled input. An example is shown below</p>
+                <div class="component-example-demo">
+                    <div class="input">
+                        <input class="input-field" type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="input">
+                        <input class="input-field input-disabled" type="text" placeholder="disabled input field">
+                    </div>
+                
+                </div>
+                <p class="component-example-heading">Example of Input validation</p>
+                <p class="component-example-description">Input field can be validated when user enters wrong text or correct text. To Validate input 'input-error' and 'input-success' classes can be added. An example of code snippet is shown below.</p>
+                <div class="component-example-demo">
+                    <div class="input">
+                        <input class="input-field input-error" type="text" placeholder="Enter your name">
+                        <p class="input-error-text">Your name cannot be empty.</p>
+                    </div>
+                
+                    <div class="input">
+                        <input class="input-field input-success" type="text" placeholder="Enter your name">
+                    </div>
+                </div>
+            </div>
+            <hr class="break-line">
+
+
+            <div class="component" id="lists">
+                <div class="component-heading">
+                    <p class="component-heading-title">Lists</p>
+                    <p class="component-heading-desc">Lists can be used at many places wherever multiple items having same style have to be shown.</p>
+                </div>
+                <p class="component-example-heading">Example of Unordered Lists</p>
+                <p class="component-example-description">List items of unordered lists are shown via help of bullets. Bullets can be of different shape , we prove classes like 'ul-square-list' for square bullets , 'ul-circle-list' for circular bullets and 'ul-disc-list' for disc shaped bullets.</p>
+                <div class="component-example-demo list-example">
+                    <ul class="ul-square-list">
+                        <li>Kroos</li>
+                        <li>Ramos</li>
+                        <li>Benzema</li>
+                    </ul>
+                
+                    <ul class="ul-circle-list">
+                        <li>Kroos</li>
+                        <li>Ramos</li>
+                        <li>Benzema</li>
+                    </ul>
+                
+                    <ul class="ul-disc-list">
+                        <li>Kroos</li>
+                        <li>Ramos</li>
+                        <li>Benzema</li>
+                    </ul>
+                </div>
+                <p class="component-example-heading">Example of Ordered List</p>
+                <p class="component-example-description">Ordered List have a parameter to order the list items. We provided classes like 'ol-lower-aplha-list' for small aplhabets, 'ol-upper-aplha-list' for capital aplhabets, 'ol-lower-roman-list' for small roman numbers, 'ol-upper-roman-list' for capital roman numbers.</p>
+                <div class="component-example-demo list-example">
+                    <ol class="ol-lower-aplha-list">
+                        <li>Kroos</li>
+                        <li>Ramos</li>
+                        <li>Benzema</li>
+                    </ol>
+                
+                    <ol class="ol-upper-aplha-list">
+                        <li>Kroos</li>
+                        <li>Ramos</li>
+                        <li>Benzema</li>
+                    </ol>
+                
+                    <ol class="ol-lower-roman-list">
+                        <li>Kroos</li>
+                        <li>Ramos</li>
+                        <li>Benzema</li>
+                    </ol>
+                
+                    <ol class="ol-upper-roman-list">
+                        <li>Kroos</li>
+                        <li>Ramos</li>
+                        <li>Benzema</li>
+                    </ol>
+                </div>
+                <p class="component-example-heading">Example of stacked list</p>
+                <p class="component-example-description">Stacked list can be used in notifications and recent activity feed etc. It can be applied using class 'stacked-list'</p>
+                <div class="component-example-demo">
+                    <ul class="stacked-list">
+                        <li class="stacked-list-item">Modric</li>
+                        <li class="stacked-list-item">Vinicius</li>
+                        <li class="stacked-list-item">Valverde</li>
+                        <li class="stacked-list-item">Courtois</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="break-line">
+
+
+            <div class="component" id="modal">
+                <div class="component-heading">
+                    <p class="component-heading-title">Modal</p>
+                    <p class="component-heading-desc">Modal can be popped up on top of screen whenever required.</p>
+                </div>
+                <p class="component-example-heading">Example of Basic Modal.</p>
+                <p class="component-example-description">User can give title and description to Modal. Modal also has two action buttons to perform any action on click.</p>
+                <div class="component-example-demo">
+                    <div class="modal-container">
+                        <div class="modal-title">Modal Title</div>
+                        <div class="modal-body">Modal body text goes here</div>
+                        <div class="modal-action-btns">
+                            <button class="modal-btn modal-alert-btn">Delete</button>
+                            <button class="modal-btn modal-success-btn">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="break-line">
+
+
+            <div class="component" id="navigation">
+                <div class="component-heading">
+                    <p class="component-heading-title">Navigation</p>
+                    <p class="component-heading-desc">Navigation is generally used at top of of every website to make navigation simple.</p>
+                </div>
+                <p class="component-example-heading">Example of basic navigation</p>
+                <p class="component-example-description">User can give title to navigation, it also provides with multiple buttons which can be used to navigate the user to different pages/sections.</p>
+                <div class="component-example-demo">
+                    <nav class="navbar-container">
+                        <div class="navbar-title">Title</div>
+                        <ul class="navbar-links">
+                            <div class="navbar-link">Home</div>
+                            <div class="navbar-link">About</div>
+                            <div class="navbar-link">Contact us</div>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <hr class="break-line">
+
+
+            <div class="component" id="rating">
+                <div class="component-heading">
+                    <p class="component-heading-title">Rating</p>
+                    <p class="component-heading-desc">Rating component is used at mainly any website where user can rate their product or service.</p>
+                </div>
+                <p class="component-example-heading">Example of basic rating bar</p>
+                <p class="component-example-description">This is how a basic rating bar looks like. An example of code snippet is shown below.</p>
+                <div class="component-example-demo">
+                    <ul class="rating-container">
+                        <li><i class="fas fa-star rating-checked"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                    </ul>
+
+                    <ul class="rating-container">
+                        <li><i class="fas fa-star rating-checked-hover"></i></li>
+                        <li><i class="fas fa-star rating-checked-hover"></i></li>
+                        <li><i class="fas fa-star rating-checked-hover"></i></li>
+                        <li><i class="fas fa-star rating-checked-hover"></i></li>
+                        <li><i class="fas fa-star rating-checked-hover"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="break-line">
+
+
+            <div class="component" id="toast">
+                <div class="component-heading">
+                    <p class="component-heading-title">Toast</p>
+                    <p class="component-heading-desc">This component can be used for toast or snackbar component. Toast is mostly used to show feedback message. Snackbar is to used show message that need user action.</p>
+                </div>
+                <p class="component-example-heading">Example of toast.</p>
+                <p class="component-example-description">Toast can be placed at different locations on page , we provide 4 position to place toast using css classes like 'bottom-right' , 'top-right' , 'bottom-left' , 'top-left'.</p>
+                <div class="component-example-demo toast-example">
+                    <div class="toast-container bottom-right">
+                        <p class="toast-text">Cant send photo.Retry in few seconds.</p>
+                        <div class="toast-action-btns">
+                            <button class="toast-action-btn">Resend</button>
+                            <button class="toast-action-btn"><i class="fas fa-times"></i></button>
+                        </div>
+                    </div>
+                    <div class="toast-container bottom-left">
+                        <p class="toast-text">Cant send photo.Retry in few seconds.</p>
+                        <div class="toast-action-btns">
+                            <button class="toast-action-btn">Resend</button>
+                            <button class="toast-action-btn"><i class="fas fa-times"></i></button>
+                        </div>
+                    </div>
+                    <div class="toast-container top-right">
+                        <p class="toast-text">Cant send photo.Retry in few seconds.</p>
+                        <div class="toast-action-btns">
+                            <button class="toast-action-btn">Resend</button>
+                            <button class="toast-action-btn"><i class="fas fa-times"></i></button>
+                        </div>
+                    </div>
+                    <div class="toast-container top-left">
+                        <p class="toast-text">Cant send photo.Retry in few seconds.</p>
+                        <div class="toast-action-btns">
+                            <button class="toast-action-btn">Resend</button>
+                            <button class="toast-action-btn"><i class="fas fa-times"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="break-line">
+
+
+            <div class="component" id="typography">
+                <div class="component-heading">
+                    <p class="component-heading-title">Typography</p>
+                    <p class="component-heading-desc">In typography we have provided basic utility classes which can be used anywhere.</p>
+                </div>
+                <p class="component-example-heading">Example of default Heading tags.</p>
+                <p class="component-example-description">Default heading tags that can be used for different heading sizes.</p>
+                <div class="component-example-demo">
+                    <h1>This is H1 text</h1>
+                    <h2>This is H2 text</h2>
+                    <h3>This is H3 text</h3>
+                    <h4>This is H4 text</h4>
+                    <h5>This is H5 text</h5>
+                    <h6>This is H6 text</h6>
+                </div>
+                <p class="component-example-heading">Example of Heading classes.</p>
+                <p class="component-example-description">Different heading classes that can be used for different heading sizes.</p>
+                <div class="component-example-demo">
+                    <p class="h1">This is H1 text</p>
+                    <p class="h2">This is H2 text</p>
+                    <p class="h3">This is H3 text</p>
+                    <p class="h4">This is H4 text</p>
+                    <p class="h5">This is H5 text</p>
+                    <p class="h6">This is H6 text</p>
+                </div>
+                <p class="component-example-heading">Example of text alignment.</p>
+                <p class="component-example-description">To align any text add following classes 'center-text' , 'left-text' , 'right-text'.</p>
+                <div class="component-example-demo">
+                    <div class="center-text">This how to align the text using CSS class</div>
+                    <div class="left-text">This how to align the text using CSS class</div>
+                    <div class="right-text">This how to align the text using CSS class</div>
+                </div>
+            </div>
+            <hr class="break-line">
+
+
+        </div>
+    </main>
+    <footer class="documentation-footer">
+        <p class="footer-text">Made with ❤️ by Murtaza Bagwala</p>
+        <ul class="footer-social-container">
+            <a class="a-link" href="https://github.com/MurtazaBagwala07" target="_blank"><li class="nav-social-link"><i class="fab fa-github"></i></li></a>
+            <a class="a-link" href="https://www.linkedin.com/in/murtaza-bagwala-2850341bb" target="_blank"><li class="nav-social-link"><i class="fab fa-linkedin"></i></li></a>
+            <a class="a-link" href="https://twitter.com/MurtazaBagwala5" target="_blank"><li class="nav-social-link"><i class="fab fa-twitter"></i></li></a>
+        </ul>
+        <p class="footer-credentials">@2022 DIVINE UI</p>
+    </footer>
+</body>
+</html>
