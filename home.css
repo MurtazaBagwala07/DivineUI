@@ -117,7 +117,7 @@
 }
 
 .main-installation{
-    margin: 1rem 5rem;
+    margin: 3rem 5rem;
     height:15rem;
 }
 
@@ -132,9 +132,8 @@
 
 
 .main-installation-code{
-    margin: 1rem 5rem;
+    margin: 5rem 5rem;
     height:15rem;
-    border: 5px solid black;
 }
 
 .documentation-footer{
