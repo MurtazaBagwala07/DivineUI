@@ -103,6 +103,9 @@
     margin: 2rem 6rem;
 }
 
+.component{
+    width:80%;
+}
 
 .component-heading{
     margin-bottom: 1rem;
