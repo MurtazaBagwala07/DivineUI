@@ -174,7 +174,7 @@
     color:var(--main-bg-color);
 }
 
-.fab{
+.floating-action-button{
     width:3rem;
     height:3rem;
     background: var(--alert-red);
@@ -189,7 +189,7 @@
     opacity: 0;
 }
 
-.fab:hover + .fab-options, .fab-options:hover{
+.floating-action-button:hover + .fab-options, .fab-options:hover{
     opacity: 1;
 }
 
