@@ -1,12 +1,17 @@
+@import url(./css/colors.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 :root{
-    --doc-primary-color:#7d0604;
-    --doc-secondary-color:#ede1d1;
+    --doc-primary-color:#ADD8E6;
+    --doc-secondary-color:#00008b;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
 }
 .documentation-nav-container{
     display:flex;
@@ -16,6 +21,7 @@
     color:var(--doc-secondary-color);
     width: 100%;
     min-height:4rem;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 .nav-title{
@@ -66,74 +72,71 @@
 
 
 .home-main-content{
-    margin: 2rem 8rem;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.main-intro{
-    margin: 1rem 5rem;
-    height:25rem;
     display: flex;
     flex-direction: column;
     justify-content:space-around;
-    align-items: flex-start;
+    align-items:center;
+    gap:3rem;
+    width:35rem;
+    margin: auto;
+    text-align: center;
 }
 
-.main-intro-title{
-    font-size:4rem;
-    color:var(--doc-primary-color);
+.home-heading{
+    margin-top: 3rem;
+    font-size: 2.5rem;
 }
 
-.main-intro-desc{
-    font-size:2rem;
+.home-main-description{
+    font-size: 1.5rem;
 }
 
-.main-documentation-button{
-    width:10rem;
-    height:2rem;
+
+.home-main-title{
+    font-size:5rem;
+    color:var(--doc-secondary-color)
+}
+
+.home-main-btns{
+    display: flex;
+    gap:2rem;
+}
+
+.home-main-btn-started{
+    width:8rem;
+    height:3rem;
     outline:none;
     border: none;
-    background-color:var(--doc-secondary-color);
-    color:var(--doc-primary-color);
-    border-radius:0.2rem;
-    font-weight:550;
-    font-size: 1.2rem;
-}
-
-.main-documentation-button:hover{
     background-color:var(--doc-primary-color);
-    color:var(--doc-secondary-color);
+    color: var(--doc-secondary-color);
+    border-radius:0.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;   
 }
 
-.main-logo{
-    margin: 1rem 5rem;
-    height: 25rem;
+.home-main-btn-started:hover{
+    text-decoration:underline;
 }
 
-.main-logo-img{
-    height:100%;
-    width: 100%;
+.home-main-btn-github{
+    width:8rem;
+    height:3rem;
+    outline:none;
+    border: 0.1rem solid var(--doc-secondary-color);
+    background-color: var(--main-bg-color);
+    color: var(--doc-secondary-color);
+    border-radius:0.5rem;
+    font-size: 1.25rem;
+    font-weight:bold;
+    cursor: pointer;
 }
 
-.main-installation{
-    margin: 3rem 5rem;
-    height:15rem;
-}
-
-.main-installation-heading{
-    font-size:3rem;
-    color:var(--doc-primary-color);
-}
-
-.main-installation-desc{
-    font-size:1.25rem;
-}
-
-
-.main-installation-code{
-    margin: 5rem 5rem;
-    height:15rem;
+.home-main-btn-github:hover{
+    border: none;
+    background-color: var(--doc-secondary-color);
+    color: var(--main-bg-color);
+    text-decoration: underline;
 }
 
 .documentation-footer{
@@ -145,6 +148,8 @@
     width: 100%;
     background-color:var(--doc-primary-color);
     color: var(--doc-secondary-color);
+    position:absolute;
+    bottom: 0;
 }
 
 .footer-social-container{

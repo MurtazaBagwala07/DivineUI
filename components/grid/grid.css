@@ -1,0 +1,27 @@
+.grid-50-50-layout{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-30-70-layout{
+    display:grid;
+    grid-template-columns: 3fr 7fr;
+}
+
+.grid-70-30-layout{
+    display:grid;
+    grid-template-columns: 7fr 3fr;
+}
+
+.grid-4-column{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 0.1rem solid var(--black-bg);
+}
+
+.flex-center{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
