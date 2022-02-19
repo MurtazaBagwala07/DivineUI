@@ -118,9 +118,6 @@
 }
 
 .main-content{
-    
-    /* margin: 2rem; */
-    /* padding: 2rem ; */
     grid-column: 2/6;
     grid-row: 1/2;
     padding:2rem;
