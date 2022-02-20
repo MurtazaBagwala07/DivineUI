@@ -5,6 +5,15 @@
     --doc-secondary-color:#00008b;
 }
 
+.dark-theme{
+    background-color:black;
+    --doc-primary-color:white;
+    --doc-secondary-color:gray;
+    color: white;
+    --main-bg-color:black;
+    --text-black:white;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -249,9 +258,48 @@
     color:inherit;
 }
 
-@media only screen and (max-width: 600px){
+.navbar-hamburger{
+    display:none;
+}
+
+.hide-mode{
+    display:none;
+}
+
+
+
+@media only screen and (max-width: 650px){
     html{
         font-size:10px;
+    }
+    .sidebar-wrapper{
+        display:none;
+        padding: 0rem 1rem;
+    }
+
+    .sidebar-component{
+        margin: 0.5rem 1rem;
+        padding:0.5rem;
+    }
+    .main-content{
+        grid-column: 1/-1;
+    }
+    .show {
+        display: block;
+        width: 50%;
+        z-index: 5;
+        position: fixed;
+        left: 0;
+        padding: 2rem;
+        background-color: var(--main-bg-color);
+        overflow-y: scroll;
+    }
+    .navbar-hamburger{
+        display:block;
+    }
+
+    .hide{
+        display: none;
     }
 }
 
@@ -259,9 +307,39 @@
     html{
         font-size:8px;
     }
+    .sidebar-wrapper{
+        display:none;
+        padding: 0rem 1rem;
+    }
+
+    .sidebar-component{
+        margin: 0rem 1rem;
+        padding:0rem;
+    }
+
+    .main-content{
+        grid-column: 1/-1;
+    }
+    .show {
+        display: block;
+        width: 50%;
+        z-index: 5;
+        position: fixed;
+        left: 0;
+        padding: 2rem;
+        background-color: var(--main-bg-color);
+        overflow-y: scroll;
+    }
+    .navbar-hamburger{
+        display:block;
+    }
+    .hide{
+        display: none;
+    }
+    
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 650px){
     html{
         font-size:12px;
     }
