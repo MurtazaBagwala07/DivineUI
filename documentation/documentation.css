@@ -248,3 +248,27 @@
     text-decoration:none;
     color:inherit;
 }
+
+@media only screen and (max-width: 600px){
+    html{
+        font-size:10px;
+    }
+}
+
+@media only screen and (max-width: 400){
+    html{
+        font-size:8px;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    html{
+        font-size:12px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    html{
+        font-size:16px;
+    }
+}
