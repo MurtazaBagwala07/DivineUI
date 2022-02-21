@@ -4,7 +4,14 @@ const sidebar = document.querySelector(".sidebar-wrapper")
 const moonIcon = document.querySelector("#moon-icon")
 const sunIcon = document.querySelector("#sun-icon")
 
-console.log(moonIcon,sunIcon)
+const inputSlider = document.querySelector('#input-slider')
+const inputValue = document.querySelector('#slider-value')
+
+inputSlider.addEventListener('input',()=>{
+    valPercent = (inputSlider.value/inputSlider.max)*100;
+    inputValue.textContent = inputSlider.value;
+    console.log(slider.value)
+})
 
 if(localStorage.getItem('dark')){
     moonIcon.classList.toggle('hide-mode')
