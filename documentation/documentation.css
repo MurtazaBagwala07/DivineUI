@@ -302,6 +302,11 @@
     .hide{
         display: none;
     }
+
+    .color{
+        height:4rem;
+        width:4rem;
+    }
 }
 
 @media only screen and (max-width: 400){
@@ -338,16 +343,36 @@
         display: none;
     }
     
+    .color{
+        height:3rem;
+        width:3rem;
+    }
 }
 
 @media only screen and (min-width: 650px){
     html{
         font-size:12px;
     }
+    .color{
+        height:6rem;
+        width:6rem;
+    }
+
+    .modal-container{
+        width:30rem;
+    }
 }
 
 @media only screen and (min-width: 1000px){
     html{
         font-size:16px;
+    }
+    .color{
+        height:7rem;
+        width:7rem;
+    }
+
+    .modal-container{
+        width:30rem;
     }
 }
