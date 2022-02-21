@@ -7,6 +7,13 @@ const sunIcon = document.querySelector("#sun-icon")
 const inputSlider = document.querySelector('#input-slider')
 const inputValue = document.querySelector('#slider-value')
 
+const navBurger = document.querySelector('#nav-hamburger')
+const navBurgerLinks = document.querySelector('.navbar-links-hamburger')
+console.log(navBurger)
+navBurger.addEventListener("click",()=>{
+    navBurgerLinks.classList.toggle('show-hamburger')
+})
+
 inputSlider.addEventListener('input',()=>{
     valPercent = (inputSlider.value/inputSlider.max)*100;
     inputValue.textContent = inputSlider.value;
