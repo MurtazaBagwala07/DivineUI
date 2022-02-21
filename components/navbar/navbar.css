@@ -33,3 +33,107 @@
     background-color:var(--main-bg-color);
     color: var(--text-black);
 }
+
+.nav-hamburger{
+    margin-left: auto;
+    margin-right: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.nav-hamburger-container{
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-color:var(--black-bg);
+    color: var(--main-bg-color);
+}
+
+.navbar-links-hamburger{
+    display:none;
+}
+
+.show-hamburger{
+    display:block;
+}
+
+.link-hamburger{
+    font-size:1.5rem;
+}
+
+
+@import url(../../css/colors.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ecom-nav-container{
+    max-width: 100vw;
+    background-color:var(--royal-color);
+    color: var(--main-bg-color);
+    display: flex;
+    height: 4rem;
+    padding: 0rem 4rem;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.search-btn{
+    color: var(--royal-color);
+    outline:none;
+    border: none;
+    padding: 0.5rem;
+    font-size:1rem;
+    background-color:var(--main-bg-color)
+}
+
+.ecom-nav-title{
+    font-size:2rem;
+}
+
+.ecom-nav-searchbar{
+
+    height: 2.7rem;
+    width: 20rem;
+    outline:none;
+    border: none;
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ecom-nav-searchbar-input{
+    border: none;
+    outline: none;
+    padding:0.5rem;
+    width:12rem;
+}
+
+.ecom-nav-action-btn{
+    margin:0.25rem;
+    padding:0.25rem;
+    outline:none;
+    border:none;
+    cursor: pointer;
+    background-color:var(--main-bg-color);
+    width:4rem;
+    height:2rem;
+    color:var(--royal-color);
+    font-size:1rem;
+}
+
+.ecom-nav-action-btns{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ecom-nav-icon{
+    color: var(--royal-color);
+}
