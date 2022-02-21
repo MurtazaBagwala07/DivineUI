@@ -85,3 +85,61 @@
     bottom: 0;
     left: 0;
 }
+
+.prod-card-container{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    width:20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background-color: var(--main-bg-color);
+}
+
+.prod-card-img{
+    height:20rem;
+}
+
+.prod-card-title{
+    padding : 0.25rem;
+    font-size:1rem;
+}
+
+.prod-card-price{
+    font-size:1.25rem;
+    padding: 0.25rem;
+}
+
+.prod-card-cartbtn{
+    width:100%;
+    outline:none;
+    border: none;
+    height:3rem;
+    font-size: 1rem;
+    background-color:var(--royal-color);
+    color:var(--main-bg-color);
+    cursor: pointer;
+}
+
+.prod-card-cartbtn:hover{
+    font-size: 1.25rem;
+    font-weight: bolder;
+    background-color:var(--main-bg-color);
+    color: var(--royal-color);
+}
+
+.prod-card-wishlistbtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color:var(--main-bg-color);
+    border-radius: 50%;
+    width:2rem;
+    height:2rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 0.5rem;
+    cursor: pointer;
+}
