@@ -9,9 +9,10 @@
     background-color:black;
     --doc-primary-color:white;
     --doc-secondary-color:gray;
-    color: white;
     --main-bg-color:black;
     --text-black:white;
+    color: var(--doc-primary-color);
+    
 }
 
 *{
