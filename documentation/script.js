@@ -11,7 +11,6 @@ const navBurger = document.querySelector('#nav-hamburger')
 const navBurgerLinks = document.querySelector('.navbar-links-hamburger')
 console.log(navBurger)
 navBurger.addEventListener("click",()=>{
-    console.log('yooooo')
     navBurgerLinks.classList.toggle('show-hamburger')
 })
 
