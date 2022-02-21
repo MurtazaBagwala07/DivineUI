@@ -161,6 +161,7 @@
 }
 
 .component-example-heading{
+    margin-top:4rem;
     font-size: 2rem;
     color:var(--doc-secondary-color)
 }

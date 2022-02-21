@@ -6,6 +6,16 @@
     --doc-secondary-color:#00008b;
 }
 
+.dark-theme{
+    background-color:black;
+    --doc-primary-color:white;
+    --doc-secondary-color:gray;
+    --main-bg-color:black;
+    --text-black:white;
+    color: var(--doc-primary-color);
+    
+}
+
 html{
     font-size:16px;
 }
@@ -63,6 +73,17 @@ html{
 
 .nav-action-btn:hover{
     border-bottom:0.2rem solid var(--doc-secondary-color);
+}
+
+
+.nav-social-container{
+    list-style-type: none;
+    align-items:center;
+    justify-content: center;
+}
+
+.hide-mode{
+    display:none;
 }
 
 .home-main-content{

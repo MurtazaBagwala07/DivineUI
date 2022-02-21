@@ -19,6 +19,7 @@ sunIcon.addEventListener("click",()=>{
 
 })
 
+
 hamburger.addEventListener('click',()=>{
     console.log('working')
     sidebar.classList.toggle("show")
