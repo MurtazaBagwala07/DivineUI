@@ -7,7 +7,7 @@ YOu can start using the components of *DIVINE UI* your project by using followin
   ```
     <link
         rel="stylesheet"
-        href="https://divineui.netlify.app/css/main.css/"
+        href="https://divine-ui.netlify.app/css/main.css/"
     />
   ```
   ### Divine UI contains following elements:
