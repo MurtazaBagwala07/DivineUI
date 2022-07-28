@@ -21,6 +21,13 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
 .documentation-nav-container{
     display:flex;
     margin: 0rem;
@@ -83,12 +90,11 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     width:100%;
-
+    top: 4rem;
 }
 
 .sidebar-wrapper{
     padding: 1rem 2rem;
-    height:auto;
     position:sticky;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     grid-column: 1/2;
